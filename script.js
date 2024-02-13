@@ -1431,7 +1431,6 @@ bns.to(".bns h5 .bns1", {
   .to(".bns h5", {
     top: '55%',
     scale: '0.8',
-
     scrollTrigger: {
       trigger: ".bns h5",
       scroller: "#main",
@@ -1455,105 +1454,108 @@ sw.to(".sw h5 .sw1", {
     trigger: ".sw h5",
     scroller: "#main",
     scrub: 1,
-    start: '500% -4980%',
-    end: '500% -5380%',
-  }
-}).to(".sw h5 .sw2", {
-  transform: "translateX(0vw)",
-  duration: 10,
-  opacity: 1,
-  scrollTrigger: {
-    trigger: ".sw h5",
-    scroller: "#main",
-    scrub: 1,
-    start: '500% -5000%',
-    end: '500% -5400%',
-  }
-}).to(".sw h5 .sw3", {
-  transform: "translateX(0vw)",
-  duration: 10,
-  opacity: 1,
-  scrollTrigger: {
-    trigger: ".sw h5",
-    scroller: "#main",
-    scrub: 1,
-    start: '500% -5020%',
-    end: '500% -5420%',
-  }
-}).to(".sw h5 .sw4", {
-  transform: "translateX(0vw)",
-  duration: 10,
-  opacity: 1,
-  scrollTrigger: {
-    trigger: ".sw h5",
-    scroller: "#main",
-    scrub: 1,
-    start: '500% -5040%',
-    end: '500% -5440%',
-  }
-}).to(".sw h5 .sw5", {
-  transform: "translateX(0vw)",
-  duration: 10,
-  opacity: 1,
-  scrollTrigger: {
-    trigger: ".sw h5",
-    scroller: "#main",
-    scrub: 1,
-    start: '500% -5060%',
-    end: '500% -5460%',
-  }
-}).to(".sw h5 .sw6", {
-  transform: "translateX(0vw)",
-  duration: 10,
-  opacity: 1,
-  scrollTrigger: {
-    trigger: ".sw h5",
-    scroller: "#main",
-    scrub: 1,
-    start: '500% -5080%',
-    end: '500% -5480%',
-  }
-}).to(".sw h5 .sw7", {
-  transform: "translateX(0vw)",
-  duration: 10,
-  opacity: 1,
-  scrollTrigger: {
-    trigger: ".sw h5",
-    scroller: "#main",
-    scrub: 1,
-    start: '500% -5100%',
-    end: '500% -5500%',
-  }
-}).to(".sw h5 .sw8", {
-  transform: "translateX(0vw)",
-  duration: 10,
-  opacity: 1,
-  scrollTrigger: {
-    trigger: ".sw h5",
-    scroller: "#main",
-    scrub: 1,
-    start: '500% -5120%',
-    end: '500% -5520%',
-  }
-}).to(".sw h5 .sw9", {
-  transform: "translateX(0vw)",
-  duration: 10,
-  opacity: 1,
-  scrollTrigger: {
-    trigger: ".sw h5",
-    scroller: "#main",
-    scrub: 1,
-    start: '500% -5140%',
-    end: '500% -5540%',
-  }
-}).to(".sw h5", {
-  top: '64%',
-  scale: '0.8',
-  scrollTrigger: {
-    trigger: ".sw h5",
-    scroller: "#main",
-    scrub: 1,
-    start: '500% -5140%',
-    end: '500% -5540%',
+    start: '500% -4300%',
+    end: '500% -5300%',
   }
 })
+
+
+// .to(".sw h5 .sw2", {
+//   transform: "translateX(0vw)",
+//   duration: 10,
+//   opacity: 1,
+//   scrollTrigger: {
+//     trigger: ".sw h5",
+//     scroller: "#main",
+//     scrub: 1,
+//     start: '500% -5000%',
+//     end: '500% -5400%',
+//   }
+// }).to(".sw h5 .sw3", {
+//   transform: "translateX(0vw)",
+//   duration: 10,
+//   opacity: 1,
+//   scrollTrigger: {
+//     trigger: ".sw h5",
+//     scroller: "#main",
+//     scrub: 1,
+//     start: '500% -5020%',
+//     end: '500% -5420%',
+//   }
+// }).to(".sw h5 .sw4", {
+//   transform: "translateX(0vw)",
+//   duration: 10,
+//   opacity: 1,
+//   scrollTrigger: {
+//     trigger: ".sw h5",
+//     scroller: "#main",
+//     scrub: 1,
+//     start: '500% -5040%',
+//     end: '500% -5440%',
+//   }
+// }).to(".sw h5 .sw5", {
+//   transform: "translateX(0vw)",
+//   duration: 10,
+//   opacity: 1,
+//   scrollTrigger: {
+//     trigger: ".sw h5",
+//     scroller: "#main",
+//     scrub: 1,
+//     start: '500% -5060%',
+//     end: '500% -5460%',
+//   }
+// }).to(".sw h5 .sw6", {
+//   transform: "translateX(0vw)",
+//   duration: 10,
+//   opacity: 1,
+//   scrollTrigger: {
+//     trigger: ".sw h5",
+//     scroller: "#main",
+//     scrub: 1,
+//     start: '500% -5080%',
+//     end: '500% -5480%',
+//   }
+// }).to(".sw h5 .sw7", {
+//   transform: "translateX(0vw)",
+//   duration: 10,
+//   opacity: 1,
+//   scrollTrigger: {
+//     trigger: ".sw h5",
+//     scroller: "#main",
+//     scrub: 1,
+//     start: '500% -5100%',
+//     end: '500% -5500%',
+//   }
+// }).to(".sw h5 .sw8", {
+//   transform: "translateX(0vw)",
+//   duration: 10,
+//   opacity: 1,
+//   scrollTrigger: {
+//     trigger: ".sw h5",
+//     scroller: "#main",
+//     scrub: 1,
+//     start: '500% -5120%',
+//     end: '500% -5520%',
+//   }
+// }).to(".sw h5 .sw9", {
+//   transform: "translateX(0vw)",
+//   duration: 10,
+//   opacity: 1,
+//   scrollTrigger: {
+//     trigger: ".sw h5",
+//     scroller: "#main",
+//     scrub: 1,
+//     start: '500% -5140%',
+//     end: '500% -5540%',
+//   }
+// }).to(".sw h5", {
+//   top: '69%',
+//   scale: '0.8',
+//   scrollTrigger: {
+//     trigger: ".sw h5",
+//     scroller: "#main",
+//     scrub: 1,
+//     start: '500% -5140%',
+//     end: '500% -5540%',
+//   }
+// })

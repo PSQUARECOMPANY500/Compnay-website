@@ -677,7 +677,7 @@ body {
 .bns h5 {
   top: 70%;
   position: absolute;
-  transform: translateX(106%);
+  transform: translateX(105.5%);
   font-size: 6vw;
   text-transform: uppercase;
   color: #330152;
