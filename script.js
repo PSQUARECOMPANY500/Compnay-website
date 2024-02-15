@@ -1701,186 +1701,187 @@ gsap.to(".sw h5", {
 // -----------------------------------------------cm animation start------------------------------------------------------------------------------------
 var cm = gsap.timeline();
 
-cm.to(".page2 .overlay .cm1", {
+cm.to(".cm h5 .cm1", {
   transform: "translateX(0vw)",
    opacity: 1,
   scrollTrigger: {
-    trigger: ".page2 .overlay .cm",
+    trigger: ".cm h5",
     scroller: "#main",
     scrub: true,
-    start:"11300% top",
-    end:"11300% -800%",
+    start:"65000% top",
+    end:"65000% -800%",
   },
 })
-.to(".page2 .overlay .cm2", {
+.to(".cm h5 .cm2", {
   transform: "translateX(0vw)",
    opacity: 1,
   scrollTrigger: {
-    trigger: ".page2 .overlay .cm",
+    trigger: ".cm h5",
     scroller: "#main",
     scrub: true,
-    start:"11500% top",
-    end: "11500% -800%",
+    start:"65400% top",
+    end: "65400% -800%",
     markers:true,
 
   },
-}).to(".page2 .overlay .cm3", {
+})
+.to(".cm h5 .cm3", {
   transform: "translateX(0vw)",
    opacity: 1,
   scrollTrigger: {
-    trigger: ".page2 .overlay .cm",
+    trigger: ".cm h5",
     scroller: "#main",
     scrub:true,
-    start:"11700% top",
-    end:"11700% -800%",
+    start:"65800% top",
+    end:"65800% -800%",
     markers:true,
 
   },
 })
-.to(".page2 .overlay .cm4", {
+.to(".cm h5 .cm4", {
   transform: "translateX(0vw)",
    opacity: 1,
   scrollTrigger: {
-    trigger: ".page2 .overlay .cm",
+    trigger: ".cm h5",
     scroller: "#main",
     scrub:true,
-    start:"11900% top",
-    end:"11900% -800%",
+    start:"66200% top",
+    end:"66200% -800%",
     markers:true,
 
   },
-}).to(".page2 .overlay .cm5", {
+}).to(".cm h5 .cm5", {
   transform: "translateX(0vw)",
    opacity: 1,
   scrollTrigger: {
-    trigger: ".page2 .overlay .cm",
+    trigger: ".cm h5",
     scroller: "#main",
     scrub: true,
-    start:"12100% top",
-    end:"12100% -800%",
-    markers:true,
-
-  },
-})
-
-.to(".page2 .overlay .cm6", {
-  transform: "translateX(0vw)",
-   opacity: 1,
-  scrollTrigger: {
-    trigger: ".page2 .overlay .cm",
-    scroller: "#main",
-    scrub: true,
-    start:"12300% top",
-    end:"12300% -800%",
-    markers:true,
-
-  },
-}).to(".page2 .overlay .cm7", {
-  transform: "translateX(0vw)",
-   opacity: 1,
-  scrollTrigger: {
-    trigger: ".page2 .overlay .cm",
-    scroller: "#main",
-    scrub: true,
-    start:"12500% top",
-    end:"12500% -800%",
-    markers:true,
-
-  },
-}).to(".page2 .overlay .cm8", {
-  transform: "translateX(0vw)",
-   opacity: 1,
-  scrollTrigger: {
-    trigger: ".page2 .overlay .cm",
-    scroller: "#main",
-    scrub: true,
-    start:"12700% top",
-    end:"12700% -800%",
-    markers:true,
-
-  },
-}).to(".page2 .overlay .cm9", {
-  transform: "translateX(0vw)",
-   opacity: 1,
-  scrollTrigger: {
-    trigger: ".page2 .overlay .cm",
-    scroller: "#main",
-    scrub: true,
-    start:"12900% top",
-    end:"12900% -800%",
-    markers:true,
-
-  },
-}).to(".page2 .overlay .cm10", {
-  transform: "translateX(0vw)",
-   opacity: 1,
-  scrollTrigger: {
-    trigger: ".page2 .overlay .cm",
-    scroller: "#main",
-    scrub: true,
-    start:"13100% top",
-    end:"13100% -800%",
-    markers:true,
-
-  },
-}).to(".page2 .overlay .cm11", {
-  transform: "translateX(0vw)",
-   opacity: 1,
-  scrollTrigger: {
-    trigger: ".page2 .overlay .cm",
-    scroller: "#main",
-    scrub: true,
-    start:"13300% top",
-    end:"13300% -800%",
+    start:"66600% top",
+    end:"66600% -800%",
     markers:true,
 
   },
 })
-.to(".page2 .overlay .cm12", {
+
+.to(".cm h5 .cm6", {
   transform: "translateX(0vw)",
    opacity: 1,
   scrollTrigger: {
-    trigger: ".page2 .overlay .cm",
+    trigger: ".cm h5",
     scroller: "#main",
     scrub: true,
-    start:"13600% top",
-    end:"13600% -800%",
+    start:"67000% top",
+    end:"67000% -800%",
+    markers:true,
+
+  },
+}).to(".cm h5 .cm7", {
+  transform: "translateX(0vw)",
+   opacity: 1,
+  scrollTrigger: {
+    trigger: ".cm h5",
+    scroller: "#main",
+    scrub: true,
+    start:"67400% top",
+    end:"67400% -800%",
+    markers:true,
+
+  },
+}).to(".cm h5 .cm8", {
+  transform: "translateX(0vw)",
+   opacity: 1,
+  scrollTrigger: {
+    trigger: ".cm h5",
+    scroller: "#main",
+    scrub: true,
+    start:"67800% top",
+    end:"67800% -800%",
+    markers:true,
+
+  },
+}).to(".cm h5 .cm9", {
+  transform: "translateX(0vw)",
+   opacity: 1,
+  scrollTrigger: {
+    trigger:".cm h5",
+    scroller: "#main",
+    scrub: true,
+    start:"68200% top",
+    end:"68200% -800%",
+    markers:true,
+
+  },
+}).to(".cm h5 .cm10", {
+  transform: "translateX(0vw)",
+   opacity: 1,
+  scrollTrigger: {
+    trigger: ".cm h5",
+    scroller: "#main",
+    scrub: true,
+    start:"68600% top",
+    end:"68600% -800%",
+    markers:true,
+
+  },
+}).to(".cm h5 .cm11", {
+  transform: "translateX(0vw)",
+   opacity: 1,
+  scrollTrigger: {
+    trigger: ".cm h5",
+    scroller: "#main",
+    scrub: true,
+    start:"69200% top",
+    end:"69200% -800%",
+    markers:true,
+
+  },
+})
+.to(".cm h5 .cm12", {
+  transform: "translateX(0vw)",
+   opacity: 1,
+  scrollTrigger: {
+    trigger: ".cm h5",
+    scroller: "#main",
+    scrub: true,
+    start:"69600% top",
+    end:"69600% -800%",
     markers:true,
   },
-}).to(".page2 .overlay .cm13", {
+}).to(".cm h5 .cm13", {
   transform: "translateX(0vw)",
    opacity: 1,
   scrollTrigger: {
-    trigger: ".page2 .overlay .cm",
+    trigger: ".cm h5",
     scroller: "#main",
     scrub: true,
-    start:"13900% top",
-    end:"13900% -800%",
+    start:"70000% top",
+    end:"70000% -800%",
     markers:true,
   },
 })
-.to(".page2 .overlay .cm h5", {
- top:'19%',
+.to(".cm h5", {
+ top:'23%',
  scale:'0.5',
   scrollTrigger: {
-    trigger: ".page2 .overlay .cm h5",
+    trigger: ".cm h5",
     scroller: "#main",
     scrub: true,
-    start: "88000% top",
-    end: "88000% -800%",
+    start:"74800% top",
+    end:"74800% -800%",
     markers:true,
 
   },
 })
-.to(".page2 .overlay .cm h5", {
+.to(".cm h5", {
   transform:"translate(40%,-60%)",
   opacity:0,
    scrollTrigger: {
-     trigger: ".page2 .overlay .cm h5",
-     scroller: "#main",
+     trigger:".cm h5",
+     scroller:"#main",
      scrub: true,
-     start:"93000% top",
-     end: "93000% -800%",
+     start:"80800% top",
+     end:"80800% -800%",
      markers:true,
 
    },
@@ -1888,88 +1889,88 @@ cm.to(".page2 .overlay .cm1", {
 
 
 
-// ------------------------------------cmp animation----------------------------------
-var cmp=gsap.timeline()
-cmp.to(".page2 .overlay .cm .cmp", {
-top:'38%',
-opacity:1,
-   scrollTrigger: {
-     trigger: ".page2 .overlay .cm .cmp",
-     scroller: "#main",
-     scrub: true,
-     start: "29500% top",
-     end: "29500% -800%",
-     markers:true,
+// // ------------------------------------cmp animation----------------------------------
+// var cmp=gsap.timeline()
+// cmp.to(".page2 .overlay .cm .cmp", {
+// top:'38%',
+// opacity:1,
+//    scrollTrigger: {
+//      trigger: ".page2 .overlay .cm .cmp",
+//      scroller: "#main",
+//      scrub: true,
+//      start:"29500% top",
+//      end:"29500% -800%",
+//      markers:true,
 
-   },
- })
- .to(".page2 .overlay .cm .cmp p", {
-opacity:0,
-     scrollTrigger: {
-       trigger: ".page2 .overlay .cm .cmp",
-       scroller: "#main",
-       scrub: 3,
-       start: "29800% top",
-       end: "29800% -1000%",
-       markers:true,
+//    },
+//  })
+//  .to(".page2 .overlay .cm .cmp p", {
+// opacity:0,
+//      scrollTrigger: {
+//        trigger: ".page2 .overlay .cm .cmp",
+//        scroller: "#main",
+//        scrub: 3,
+//        start: "29800% top",
+//        end: "29800% -1000%",
+//        markers:true,
 
-     },
-   })
-
-
-// //  -------------------------------.inp animation start------------------------
-
-var inp = gsap.timeline();
-
-inp.to(".page2 .overlay .in .inh", {
-  opacity: 1,
-  top:'9%',
-  scrollTrigger: {
-    trigger: ".page2 .overlay .in .inh",
-    scroller: "#main",
-    scrub: true,
-    start: "32600% top",
-    end: "32600% -300%",
+//      },
+//    })
 
 
-  },
-})
-  .to(".page2 .overlay .in .inp", {
-    left: '20%',
-    opacity: '1',
-    scrollTrigger: {
-      trigger: ".page2 .overlay .in .inp",
-      scroller: "#main",
-      scrub: 3,
-      start: "33600% top",
-      end: "33600% -500%",
-      markers: true,
+// // //  -------------------------------.inp animation start------------------------
 
-    },
-  })
-  .to(".page2 .overlay .in h5", {
-    transform: "translate(1%,-160%)",
-    opacity: 0,
-    scrollTrigger: {
-      trigger: ".page2 .overlay .in h5",
-      scroller: "#main",
-      scrub: true,
-      start: "210000% top",
-      end: "210000% -350%",
-      markers: true,
+// var inp = gsap.timeline();
 
-    },
-  })
-  .to(".page2 .overlay .in .inp p", {
-    opacity: 0,
-    scrollTrigger: {
-      trigger: ".page2 .overlay .in .inp",
-      scroller: "#main",
-      scrub: true,
-      start: "34600% top",
-      end: "34600% -500%",
-      markers: true,
+// inp.to(".page2 .overlay .in .inh", {
+//   opacity: 1,
+//   top:'9%',
+//   scrollTrigger: {
+//     trigger: ".page2 .overlay .in .inh",
+//     scroller: "#main",
+//     scrub: true,
+//     start: "32600% top",
+//     end: "32600% -300%",
 
-    },
-  })
+
+//   },
+// })
+//   .to(".page2 .overlay .in .inp", {
+//     left: '20%',
+//     opacity: '1',
+//     scrollTrigger: {
+//       trigger: ".page2 .overlay .in .inp",
+//       scroller: "#main",
+//       scrub: 3,
+//       start: "33600% top",
+//       end: "33600% -500%",
+//       markers: true,
+
+//     },
+//   })
+//   .to(".page2 .overlay .in h5", {
+//     transform: "translate(1%,-160%)",
+//     opacity: 0,
+//     scrollTrigger: {
+//       trigger: ".page2 .overlay .in h5",
+//       scroller: "#main",
+//       scrub: true,
+//       start: "210000% top",
+//       end: "210000% -350%",
+//       markers: true,
+
+//     },
+//   })
+//   .to(".page2 .overlay .in .inp p", {
+//     opacity: 0,
+//     scrollTrigger: {
+//       trigger: ".page2 .overlay .in .inp",
+//       scroller: "#main",
+//       scrub: true,
+//       start: "34600% top",
+//       end: "34600% -500%",
+//       markers: true,
+
+//     },
+//   })
 
