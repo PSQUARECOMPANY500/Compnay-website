@@ -91,7 +91,7 @@ body {
 }
 
 .page2 {
-  height: 22000vh;
+  max-height: 25000vh;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -151,11 +151,101 @@ body {
 
 }
 
+.overlay .third {
+  position: absolute;
+  top: 23.5%;
+  left: 10%;
+  font-size: 3.5vw;
+  color: #330152;
+  line-height: 7vw;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  font-family: "montserrat", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  letter-spacing: 4px;
+}
 
 
 
+.yrs {
+  position: absolute;
+  top: 45%;
+  left: 51%;
+  /* opacity: 0; */
+  font-size: 3.5vw;
+  color: #330152;
+  line-height: 7vw;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  font-family: "montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 4px;
+  white-space: nowrap;
+  scale: 1.5;
+}
+
+.yrs span {
+  display: inline-block;
+}
+
+.yrs1 {
+  opacity: 0;
+  transform: translateX(35vw);
+}
+
+.yrs2 {
+  opacity: 0;
+  transform: translateX(33vw);
+}
+
+.yrs3 {
+  opacity: 0;
+  transform: translateX(30vw);
+}
+
+.yrs4 {
+  opacity: 0;
+  transform: translateX(27vw);
+}
 
 
+
+.yrs5 {
+  opacity: 0;
+  transform: translateX(21vw);
+}
+
+.yrs6 {
+  opacity: 0;
+  transform: translateX(18vw);
+}
+
+.yrs7 {
+  opacity: 0;
+  transform: translateX(15vw);
+}
+
+.yrs8 {
+  opacity: 0;
+  transform: translateX(12vw);
+}
+
+.yrs9 {
+  opacity: 0;
+  transform: translateX(10vw);
+}
+
+.yrs10 {
+  opacity: 0;
+  transform: translateX(7vw);
+}
+
+.yrs11 {
+  opacity: 0;
+  transform: translateX(5vw);
+}
 
 .bottom-text {
   width: 100%;
@@ -1162,6 +1252,7 @@ body {
   font-weight: 600;
   font-style: normal;
 }
+
 .imp {
   width: 100%;
   height: 100vh;
@@ -1275,23 +1366,24 @@ body {
 }
 
 .p3btm {
+  /* opacity: 0; */
   padding: 10px 30px;
   height: 90px;
   width: 100%;
   background: #ECE7E1 0% 0% no-repeat padding-box;
   position: absolute;
-  bottom: 0%;
+  bottom: -12%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .p3btm h3:nth-child(1) {
-  font-size: 2.5vw;
+  font-size: 1.5vw;
 }
 
 .p3btm h3 {
-  font-size: 1.2vw;
+  font-size: .7vw;
   font-family: "montserrat", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -1299,38 +1391,38 @@ body {
   color: #330152;
 }
 
-.page3 h1 {
-  font-family: "montserrat", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  /* color: #ECE7E1; */
-  color: #fff;
-  font-size: 4vw;
-  letter-spacing: 2px;
-  position: absolute;
-  top: 20%;
-  left: 20%;
 
-}
 
 .frm {
-  position: relative;
-  top: 40%;
-  left: 20%;
-  width: 60%;
+
+top: 0;
+left: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+
+
 }
 
 .frml {
+transform: translateY(500%);
   display: flex;
   gap: 30px;
+  opacity: 0;
 }
 
 .frmr {
+  transform: translateY(500%);
   display: flex;
   gap: 30px;
+  opacity: 0;
 }
 
 .frm input {
