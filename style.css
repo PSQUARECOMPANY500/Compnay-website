@@ -21,6 +21,7 @@ body {
 
 /* navbar */
 .nav {
+  
   height: 120px;
   width: 100%;
   display: flex;
@@ -37,6 +38,7 @@ body {
   left: 0;
   z-index: 9999999999;
   text-transform: uppercase;
+
 }
 
 /* nav bar psquare company */
@@ -64,6 +66,23 @@ body {
   position: absolute;
   right: 10%;
 display: none;
+font-size: 1.4vw;
+color: #330152;
+text-transform: uppercase;
+font-family: "montserrat", sans-serif;
+font-weight: 600;
+letter-spacing: 3px;
+font-style: normal;
+z-index: 9999;
+cursor: pointer;
+
+}
+
+.nav .com{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0%);
+ opacity: 0;
 font-size: 1.4vw;
 color: #330152;
 text-transform: uppercase;
@@ -144,10 +163,9 @@ cursor: pointer;
 
 .overlay .p2h1 {
   color: #330152;
-  /* color: red; */
   position: absolute;
-  top: -166%;
-  left: 19.2%;
+  top: -164%;
+  left: 19%;
   text-align: center;
   /* line-height: 7vw; */
   letter-spacing: 2px;
@@ -181,10 +199,11 @@ cursor: pointer;
 
 .overlay .second {
   position: absolute;
-  top: 45%;
-  left: 24%;
+  top: 45.7%;
+  left: 24.5%;
   font-size: 7vw;
   color: #330152;
+
   /* line-height: 7vw; */
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -366,7 +385,7 @@ cursor: pointer;
 }
 
 .bottom-text h2 .one {
-  opacity: 0;
+  opacity:0 ;
   transform: translateX(68vw);
 }
 
@@ -381,12 +400,12 @@ cursor: pointer;
   transform: translateX(60vw);
 }
 
-.bottom-text h2 .four {
+.bottom-text h2 .fourr {
   opacity: 0;
   transform: translateX(56vw);
 }
 
-.bottom-text h2 .five {
+.bottom-text h2 .fivee {
   opacity: 0;
   transform: translateX(52vw);
 }
@@ -527,13 +546,14 @@ cursor: pointer;
 .th h5 {
   top: 40%;
   position: absolute;
-  transform: translateX(46%);
+  /* transform: translateX(46%); */
+  left: 17%;
   font-size: 9vw;
   text-transform: uppercase;
   color: #330152;
   text-transform: uppercase;
   opacity: 1;
-  letter-spacing: 3px;
+  letter-spacing: 48px;
   font-family: "montserrat", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -596,13 +616,13 @@ cursor: pointer;
   top: 45%;
   position: absolute;
   /* transform: translateX(33%); */
-  left: 23%;
+  left: 13%;
   font-size: 9vw;
   text-transform: uppercase;
   color: #330152;
   text-transform: uppercase;
   opacity: 1;
-  letter-spacing: 3px;
+  letter-spacing: 21px;
   font-family: "montserrat", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -694,7 +714,7 @@ cursor: pointer;
   color: #330152;
   text-transform: uppercase;
   opacity: 1;
-  letter-spacing: 3px;
+  letter-spacing: 50px;
   font-family: "montserrat", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -755,13 +775,13 @@ cursor: pointer;
   top: 65%;
   position: absolute;
   /* transform: translateX(29%); */
-  left: 20%;
+  left: 10%;
   font-size: 6vw;
   text-transform: uppercase;
   color: #330152;
   text-transform: uppercase;
   opacity: 1;
-  letter-spacing: 3px;
+  letter-spacing: 15px;
   font-family: "montserrat", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -868,13 +888,14 @@ cursor: pointer;
   top: 72%;
   position: absolute;
   /* transform: translateX(105.5%); */
-  left: 35%;
+  left: 6.5%;
   font-size: 6vw;
+  white-space: nowrap;
   text-transform: uppercase;
   color: #330152;
   text-transform: uppercase;
   opacity: 1;
-  letter-spacing: 3px;
+  letter-spacing: 11px;
   font-family: "montserrat", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -931,82 +952,58 @@ cursor: pointer;
 .bns h5 .bns8 {
   opacity: 0;
   transform: translateX(37vw);
-}
+} 
 
-.sw {
-  width: 100%;
-  height: 100vh;
-  left: 0;
-  top: 0;
-  position: absolute;
-  display: block;
-  overflow: hidden;
 
-}
 
-.sw h5 {
-  top: 84%;
-  position: absolute;
- left: 36%;
-  /* transform: translateX(81%); */
-  font-size: 6vw;
-  text-transform: uppercase;
-  color: #330152;
-  text-transform: uppercase;
-  opacity: 1;
-  letter-spacing: 3px;
-  font-family: "montserrat", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
 
-.sw h5 span {
+span {
   display: inline-block;
 }
 
-.sw h5 .sw1 {
+.sw1 {
   opacity: 0;
   transform: translateX(70vw);
 }
 
-.sw h5 .sw2 {
+.sw2 {
   opacity: 0;
   transform: translateX(67vw);
 }
 
-.sw h5 .sw3 {
+.sw3 {
   opacity: 0;
   transform: translateX(64vw);
 }
 
 
-.sw h5 .sw4 {
+.sw4 {
   opacity: 0;
   transform: translateX(61vw);
 }
 
 
-.sw h5 .sw5 {
+.sw5 {
   opacity: 0;
   transform: translateX(58vw);
 }
 
-.sw h5 .sw6 {
+.sw6 {
   opacity: 0;
   transform: translateX(55vw);
 }
 
-.sw h5 .sw7 {
+.sw7 {
   opacity: 0;
   transform: translateX(52vw);
 }
 
-.sw h5 .sw8 {
+.sw8 {
   opacity: 0;
   transform: translateX(49vw);
 }
 
-.sw h5 .sw9 {
+.sw9 {
   opacity: 0;
   transform: translateX(46vw);
 }
@@ -1412,28 +1409,7 @@ cursor: pointer;
   position: relative;
 }
 
-.p3btm {
-  /* opacity: 0; */
-  padding: 10px 30px;
-  height: 90px;
-  width: 100%;
-  background: #ECE7E1 0% 0% no-repeat padding-box;
-  position: absolute;
-  bottom: -12%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-
-.p3btm h3 {
-  font-size: 1.2vw;
-  font-family: "montserrat", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-
-  color: #330152;
-}
 
 
 
@@ -1471,20 +1447,28 @@ transform: translateY(500%);
 }
 
 .frm input {
-  box-shadow: 0px 0px 3px #00000026;
+  /* box-shadow: 0px 0px 3px #00000026; */
   border: 1px solid #ECE7E1;
   background: transparent;
   border-radius: 3px;
-  padding: 8px 80px;
+  outline-color: #fff;
+  width: 600px;
+  padding: 20px 10px;
+  border-radius: 5px;
   opacity: 1;
 
 }
 
 ::placeholder {
-  color: #fff;
-  /* font-weight: 300; */
-  opacity: 0.6;
-  /* Firefox */
+font-size: .8vw;
+color: #fff;
+text-transform: uppercase;
+font-family: "montserrat", sans-serif;
+font-weight: 200;
+letter-spacing: 2px;
+border-radius: 5px;
+font-style: normal;
+
 }
 
 #overlay2{
@@ -1500,4 +1484,241 @@ transform: translateY(500%);
 
 .bimg{
   height: 40px;
+}
+
+.p3btm{
+  width: 100%;
+  height: 20vh;
+display: flex;
+align-items: center;
+justify-content: space-between;
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  padding: 5px 30px;
+  display: none;
+
+
+}
+
+.ov1img{
+  height: 60px;
+}
+
+.btm1{
+  height: 150px;
+  width: 300px;
+  background-color: #fff;
+  position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 12px;
+
+
+}
+
+
+.btm1 h1{
+  font-size: 1.4vw;
+  color: #330152;
+  text-transform: uppercase;
+  font-family: "montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-style: normal;
+
+  
+}
+
+.ov1{
+  position: absolute;
+  height: 100%;
+
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #69467e;
+border-radius: 10px;
+
+}
+
+.btm1:hover .ov1{
+  display: none;
+}
+
+
+.btm2{
+  height: 150px;
+  width: 500px;
+  background-color: #fff;
+display: none;
+  position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 12px;
+
+}
+
+.btm2c{
+  height: 100%;
+  width: 100%;
+  display:flex ;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+
+.btm2c h1{
+  font-size: 1vw;
+  color: #330152;
+  text-transform:capitalize;
+  font-family: "montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-style: normal;
+  
+}
+
+
+.btm2c h5{
+  color: #330152;
+  text-transform:capitalize;
+  font-family: "montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-style: normal;
+  font-size: .8vw;
+}
+
+.btm2cr{
+  display:flex ;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+.btmcr1{
+  display:flex ;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.btm2cl{
+  display:flex ;
+  flex-direction: column;
+  gap: 2px;
+  text-align: center;
+ 
+}
+
+.btm2cl h1{
+  font-size: 1.4vw;
+}
+.ov2{
+  position: absolute;
+  height: 100%;
+  z-index: 99;
+  width: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #69467e;
+border-radius: 10px;
+
+
+}
+
+.ov2 h1{
+  font-size: 1.4vw;
+  color: #330152;
+  text-transform: uppercase;
+  font-family: "montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-style: normal;
+ 
+}
+
+.btm2:hover  .ov2{
+  display: none;
+
+}
+
+.btm3{
+  height: 150px;
+  width: 300px;
+  background-color: #fff;
+  position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+
+}
+
+
+.btm3 h1{
+  font-size: 1.4vw;
+  color: #330152;
+  text-transform: uppercase;
+  font-family: "montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-style: normal;
+  
+}
+
+.ov3{
+  position: absolute;
+  height: 100%;
+  z-index: 99;
+  width: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #69467e;
+border-radius: 10px;
+
+}
+
+.btm3:hover  .ov3{
+  display: none
+}
+
+.btm3 h2{
+  font-size: .9vw;
+  line-height: 25px;
+  color: #330152;
+  text-transform: uppercase;
+  font-family: "montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-style: normal;
+}
+
+.frm button{
+  padding: 10px 570px;
+  font-size: 1vw;
+  text-transform: uppercase;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+  border-radius: 5px;
+  font-style: normal;
+  background-color:#DAD0DD;
+  border: none;
+  display: none;
+
+}
+
+.conoverlay{
+display: none;
 }
