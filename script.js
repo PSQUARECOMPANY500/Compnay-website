@@ -65,8 +65,9 @@ navTimeline.to(".nav .pc", {
       trigger: ".page2 .overlay .third",
       scroller: "#main",
       scrub: true,
-      start: "26300% top",
-      end: "26300% -100%",
+      start: "49300% top",
+      end: "49300% -50%",
+   
 
     }
   })
@@ -76,8 +77,8 @@ navTimeline.to(".nav .pc", {
       trigger: ".page2 .overlay .third",
       scroller: "#main",
       scrub: true,
-      start: "26300% top",
-      end: "26300% -100%",
+      start: "49300% top",
+      end: "49300% -50%",
 
     }
   }).to(".nav .com", {
@@ -86,8 +87,8 @@ navTimeline.to(".nav .pc", {
       trigger: ".page2 .overlay .third",
       scroller: "#main",
       scrub: true,
-      start: "26300% top",
-      end: "26300% -160%",
+      start: "49300% top",
+      end: "49300% -100%",
 
     }
   })
@@ -364,7 +365,7 @@ third.to(".page2 .overlay .third", {
       scrub: true,
       start: "48000% top",
       end: "48000% -20%",
-      markers:true,
+     
 
 
     }
@@ -1887,20 +1888,21 @@ trp.to(".tr h5", {
 
 
 
+var close=document.querySelector("#close");
+close.addEventListener("click",()=>{
+ document.querySelector(".conoverlay").style.display='none'
+})
 
-// const contact = document.getElementById("main")
 
-// const contactUs = () => {
-//   console.log("jhelo");
+var pc=document.querySelector('.pc')
 
-//   // Assuming you have already initialized Locomotive Scroll with the variable 'scroll'
-//   if (typeof scroll !== 'undefined') {
-//     // Use Locomotive Scroll's scrollTo method
-//     window.scrollTo(contact, {
-//       offset: [0, 0], // You can adjust the offset if needed
-//       duration: 1000, // Adjust the duration as needed
-//       easing: [0.165, 0.84, 0.44, 1], // Adjust the easing function as needed
-//     });
-//   }
-// };
+pc.addEventListener("click",()=>{
+  document.querySelector(".conoverlay").style.display='flex'
+ })
+ 
 
+ var contact=document.querySelector('.contact')
+
+contact.addEventListener("click",()=>{
+  document.querySelector(".conoverlay").style.display='flex'
+ })
