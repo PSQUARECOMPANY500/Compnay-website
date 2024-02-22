@@ -97,7 +97,7 @@ navTimeline.play();
 //animation nav box shadow
 
 gsap.to(".nav", {
-  boxShadow: "0px 3px 10px rgba(0, 0, 0, 0.75)",
+  boxShadow: "0px 3px 3px rgba(0, 0, 0, 0.35)",
   scrollTrigger: {
     scrub: 1,
     trigger: ".nav",
@@ -177,7 +177,7 @@ p22.to(".page2 .overlay .p2h1", {
       scroller: "#main",
       scrub: true,
       start: "320% top",
-      end: "200% -30%",
+      end: "200% -100%",
     }
 
   })
@@ -215,6 +215,7 @@ firstt1.to(".page2 .overlay .first", {
 
   .to(".page2 .overlay .first", {
     top: '50%',
+  
     scrollTrigger: {
       trigger: ".bottom-text h2",
       scroller: "#main",
@@ -237,17 +238,18 @@ firstt1.to(".page2 .overlay .first", {
       scroller: "#main",
       scrub: 1,
       start: '1500% top',
-      end: 'top -80%',
+      end: 'top -280%',
   
     }
   })
   .to(".page2 .overlay .first", {
     opacity: 0,
+
     scrollTrigger: {
       trigger: ".bottom-text h2",
       scroller: "#main",
       scrub: true,
-      start: '1600% top',
+      start: '2500% top',
    
 
     }
@@ -269,7 +271,7 @@ p2s.to(".page2 .overlay .second", {
     trigger: ".bottom-text h2",
     scroller: "#main",
     scrub: true,
-    start: '1600% top',
+    start: '2500% top',
  
 
   }
@@ -280,8 +282,8 @@ p2s.to(".page2 .overlay .second", {
       trigger: ".page2 .overlay .second",
       scroller: "#main",
       scrub: true,
-      start: "1700% top",
-      end: "1700% -30%",
+      start: "2500% top",
+      end: "2500% -40%",
 
     }
   })
@@ -294,8 +296,8 @@ p2s.to(".page2 .overlay .second", {
       trigger: ".page2 .overlay .second",
       scroller: "#main",
       scrub: true,
-      start: "3000% top",
-      end: "3000% -50%",
+      start: "2800% top",
+      end: "2800% -100%",
 
     }
   }
@@ -344,12 +346,13 @@ var third = gsap.timeline();
 
 third.to(".page2 .overlay .third", {
   top: '52%',
+
   scrollTrigger: {
     trigger: ".page2 .overlay .third",
     scroller: "#main",
     scrub: true,
     start: "47000% top",
-    end: "47000% -30%",
+    end: "47000% -90%",
   
 
   }
@@ -364,7 +367,7 @@ third.to(".page2 .overlay .third", {
       scroller: "#main",
       scrub: true,
       start: "48000% top",
-      end: "48000% -20%",
+      end: "48000% -100%",
      
 
 
@@ -378,7 +381,7 @@ third.to(".page2 .overlay .third", {
       scroller: "#main",
       scrub: true,
       start: "48200% top",
-      end: "48200% -120%",
+      end: "48200% -200%",
 
     }
 
@@ -400,6 +403,7 @@ fr.to(".page2 .overlay .four", {
 )
 .to(".page2 .overlay .four", {
   top: '52%',
+ 
   scrollTrigger: {
     trigger: ".page2 .overlay .second",
     scroller: "#main",
@@ -423,7 +427,7 @@ fr.to(".page2 .overlay .four", {
       scroller: "#main",
       scrub: true,
       start: "12600% top",
-      end: "12600% -20%",
+      end: "12600% -150%",
 
 
 
@@ -438,7 +442,8 @@ fr.to(".page2 .overlay .four", {
       trigger: ".page2 .overlay .second",
       scroller: "#main",
       scrub: true,
-      start: '12750% top',
+      start: '13500% top',
+  
  
     }
   }
@@ -455,19 +460,19 @@ fv.to(".page2 .overlay .five", {
     trigger: ".page2 .overlay .second",
     scroller: "#main",
     scrub: true,
-    start: '12750% top',
+    start: '13500% top',
 
   }
 }
 )
-.to(".page2 .overlay .five", {
+fv.to(".page2 .overlay .five", {
   top:'28%',
   scrollTrigger: {
     trigger: ".page2 .overlay .five",
     scroller: "#main",
     scrub: true,
-    start: '13300% top',
-    end:'13300% -30%',
+    start: '14300% top',
+    end:'14300% -30%',
 
 
   }
@@ -482,8 +487,8 @@ fv.to(".page2 .overlay .five", {
     trigger: ".page2 .overlay .five",
     scroller: "#main",
     scrub: true,
-    start: '14400% top',
-    end:'14400% -35%',
+    start: '14800% top',
+    end:'14800% -35%',
 
   }
 }
@@ -515,18 +520,18 @@ fv.to(".page2 .overlay .five", {
  )
 
 var page2Animations = [
-  { element: ".page2 .overlay .yrs1", start: '49000% top', end: '49000% -30%' },
-  { element: ".page2 .overlay .yrs2", start: '49030% top', end: '49030% -30%' },
-  { element: ".page2 .overlay .yrs3", start: '49060% top', end: '49060% -30%' },
-  { element: ".page2 .overlay .yrs4", start: '49090% top', end: '49090% -30%' },
-  { element: ".page2 .overlay .yrs5", start: '49120% top', end: '49120% -30%' },
-  { element: ".page2 .overlay .yrs6", start: '49150% top', end: '49150% -30%' },
-  { element: ".page2 .overlay .yrs7", start: '49180% top', end: '49180% -30%' },
-  { element: ".page2 .overlay .yrs8", start: '49210% top', end: '49210% -30%' },
-  { element: ".page2 .overlay .yrs9", start: '49240% top', end: '49240% -30%' },
-  { element: ".page2 .overlay .yrs10", start: '49270% top', end: '49270% -30%' },
-  { element: ".page2 .overlay .yrs11", start: '49300% top', end: '49300% -30%' },
-  { element: ".page2 .overlay .yrs12", start: '49330% top', end: '49330% -30%' }
+  { element: ".page2 .overlay .yrs1", start: '49250% top', end: '49250% -70%' },
+  { element: ".page2 .overlay .yrs2", start: '49300% top', end: '49300% -70%' },
+  { element: ".page2 .overlay .yrs3", start: '49350% top', end: '49350% -70%' },
+  { element: ".page2 .overlay .yrs4", start: '49400% top', end: '49400% -70%' },
+  { element: ".page2 .overlay .yrs5", start: '49450% top', end: '49450% -70%' },
+  { element: ".page2 .overlay .yrs6", start: '49500% top', end: '49500% -70%' },
+  { element: ".page2 .overlay .yrs7", start: '49550% top', end: '49550% -70%' },
+  { element: ".page2 .overlay .yrs8", start: '49600% top', end: '49600% -70%' },
+  { element: ".page2 .overlay .yrs9", start: '49650% top', end: '49650% -70%' },
+  { element: ".page2 .overlay .yrs10", start: '49700% top', end: '49700% -70%' },
+  { element: ".page2 .overlay .yrs11", start: '49750% top', end: '49750% -70%' },
+  { element: ".page2 .overlay .yrs12", start: '49800% top', end: '49800% -70%' }
 ];
 
 page2Animations.forEach(function (animation) {
@@ -1403,7 +1408,7 @@ cm.to(".cm h5", {
     scroller: "#main",
     scrub: true,
     start: "18900% top",
-    end: "18900% -10%",
+    end: "18900% -40%",
 
   },
 })
@@ -1416,7 +1421,7 @@ cm.to(".cm h5", {
       scroller: "#main",
       scrub: true,
       start: "20100% top",
-    end: "20100% -10%",
+    end: "20100% -40%",
     },
   });
 
@@ -1433,7 +1438,7 @@ cmp.to(".cm p", {
     scroller: "#main",
     scrub: true,
     start: "18900% top",
-    end: "18900% -10%",
+    end: "18900% -40%",
   },
 })
   
@@ -1445,7 +1450,7 @@ cmp.to(".cm p", {
       scroller: "#main",
       scrub: true,
       start: "20100% top",
-    end: "20100% -10%",
+    end: "20100% -40%",
     },
   })
 
@@ -1486,7 +1491,7 @@ inp.to(".in h5", {
       scroller: "#main",
       scrub: 1,
       start: "36900% top",
-      end: "36900% -20%",
+      end: "36900% -15%",
     
 
     },
@@ -1499,7 +1504,7 @@ inp.to(".in h5", {
       scroller: "#main",
       scrub: true,
       start: "36900% top",
-      end: "36900% -20%",
+      end: "36900% -15%",
     },
   })
 
@@ -1510,7 +1515,7 @@ inp.to(".in h5", {
       scroller: "#main",
       scrub: true,
       start: "36900% top",
-      end: "36900% -20%",
+      end: "36900% -15%",
 
     },
   })
@@ -1525,8 +1530,8 @@ scp.to(".sc h5", {
     trigger: ".in h5",
     scroller: "#main",
     scrub: true,
-    start: "36900% top",
-    end: "36900% -20%",
+    start: "36800% top",
+    end: "36800% -20%",
   
 
   },
@@ -1538,8 +1543,8 @@ scp.to(".sc h5", {
       trigger: ".in h5",
       scroller: "#main",
       scrub: true,
-      start: "36900% top",
-      end: "36900% -20%",
+      start: "36800% top",
+      end: "36800% -20%",
 
     },
   })
@@ -1551,8 +1556,8 @@ scp.to(".sc h5", {
       trigger: ".sc h5",
       scroller: "#main",
       scrub: true,
-      start: "39100% top",
-      end: "39100% -20%",
+      start: "38700% top",
+      end: "38700% -20%",
 
     },
   })
@@ -1562,8 +1567,8 @@ scp.to(".sc h5", {
       trigger: ".sc h5",
       scroller: "#main",
       scrub: true,
-      start: "39100% top",
-      end: "39100% -20%",
+      start: "38700% top",
+      end: "38700% -20%",
 
     },
   })
@@ -1573,8 +1578,8 @@ scp.to(".sc h5", {
       trigger: ".sc h5",
       scroller: "#main",
       scrub: true,
-      start: "39100% top",
-      end: "39100% -20%",
+      start: "38700% top",
+      end: "38700% -20%",
     },
   })
 
@@ -1590,8 +1595,8 @@ ing.to(".ing h5", {
     trigger: ".ing h5",
     scroller: "#main",
     scrub: true,
-    start: "39450% top",
-    end: "39450% -20%",
+    start: "38700% top",
+    end: "38700% -20%",
 
   },
 })
@@ -1602,8 +1607,8 @@ ing.to(".ing h5", {
       trigger: ".ing h5",
       scroller: "#main",
       scrub: true,
-      start: "39450% top",
-      end: "39450% -20%",
+      start: "38700% top",
+      end: "38700% -20%",
   
 
 
@@ -1615,8 +1620,8 @@ ing.to(".ing h5", {
       trigger: ".ing h5",
       scroller: "#main",
       scrub: true,
-      start: "41600% top",
-      end: "41600% -20%",
+      start: "40600% top",
+      end: "40600% -20%",
 
     },
   })
@@ -1626,8 +1631,8 @@ ing.to(".ing h5", {
       trigger: ".ing h5",
       scroller: "#main",
       scrub: true,
-      start: "41600% top",
-      end: "41600% -20%",
+      start: "40600% top",
+      end: "40600% -20%",
 
     },
   })
@@ -1637,8 +1642,8 @@ ing.to(".ing h5", {
       trigger: ".ing h5",
       scroller: "#main",
       scrub: true,
-      start: "41600% top",
-      end: "41600% -20%",
+      start: "40600% top",
+      end: "40600% -20%",
 
     },
   })
@@ -1655,8 +1660,8 @@ imp.to(".imp h5", {
     trigger: ".imp h5",
     scroller: "#main",
     scrub: true,
-    start: "41600% top",
-    end: "41600% -20%",
+    start: "40600% top",
+    end: "40600% -15%",
  
   },
 })
@@ -1667,8 +1672,8 @@ imp.to(".imp h5", {
       trigger: ".imp h5",
       scroller: "#main",
       scrub: true,
-      start: "41600% top",
-      end: "41600% -20%",
+      start: "40600% top",
+      end: "40600% -15%",
 
 
     },
@@ -1680,8 +1685,8 @@ imp.to(".imp h5", {
       trigger: ".imp h5",
       scroller: "#main",
       scrub: true,
-      start: "43800% top",
-      end: "43800% -20%",
+      start: "42800% top",
+      end: "42800% -15%",
     
 
     },
@@ -1692,8 +1697,8 @@ imp.to(".imp h5", {
       trigger: ".imp h5",
       scroller: "#main",
       scrub: true,
-      start: "43800% top",
-      end: "43800% -20%",
+      start: "42800% top",
+      end: "42800% -15%",
    
 
     },
@@ -1704,8 +1709,8 @@ imp.to(".imp h5", {
       trigger: ".imp h5",
       scroller: "#main",
       scrub: true,
-      start: "43800% top",
-      end: "43800% -20%",
+      start: "42800% top",
+      end: "42800% -15%",
 
     },
   })
@@ -1721,8 +1726,8 @@ trp.to(".tr h5", {
     trigger: ".imp h5",
     scroller: "#main",
     scrub: true,
-    start: "43800% top",
-    end: "43800% -20%",
+    start: "42800% top",
+    end: "42800% -10%",
 
 
 
@@ -1735,8 +1740,8 @@ trp.to(".tr h5", {
       trigger: ".tr h5",
       scroller: "#main",
       scrub: true,
-      start: "43800% top",
-      end: "43800% -20%",
+      start: "42800% top",
+      end: "42800% -20%",
   
 
 
@@ -1750,9 +1755,8 @@ trp.to(".tr h5", {
       trigger: ".tr h5",
       scroller: "#main",
       scrub: true,
-      start: "46000% top",
-      end: "46000% -20%",
-  
+      start: "45800% top",
+      end: "45800% -20%",
 
 
     },
@@ -1763,8 +1767,8 @@ trp.to(".tr h5", {
       trigger: ".tr h5",
       scroller: "#main",
       scrub: true,
-      start: "46000% top",
-      end: "46000% -20%",
+      start: "45800% top",
+      end: "45800% -20%",
     },
   })
   .to(".tr .trp", {
@@ -1773,8 +1777,8 @@ trp.to(".tr h5", {
       trigger: ".tr h5",
       scroller: "#main",
       scrub: true,
-      start: "46000% top",
-      end: "46000% -20%",
+      start: "45800% top",
+      end: "45800% -20%",
     },
   })
 
