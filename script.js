@@ -96,17 +96,7 @@ navTimeline.play();
 
 //animation nav box shadow
 
-gsap.to(".nav", {
-  boxShadow: "0px 3px 3px rgba(0, 0, 0, 0.35)",
-  scrollTrigger: {
-    scrub: 1,
-    trigger: ".nav",
-    scroller: "#main",
-   start:'top top',
-   end:'100% top',
 
-  }
-})
 
 
 
@@ -1787,7 +1777,7 @@ trp.to(".tr h5", {
     // opacity: 1,
     // transform: 'translate(0,-200%)',
     top: '-27%',
-    color: '#fff',
+   
 
     // background: "transparent linear-gradient(197deg, #ECE7E100 0%, #82638F57 35%, #330152 100%) 0% 0% no-repeat padding-box",
     scrollTrigger: {
@@ -1804,7 +1794,7 @@ trp.to(".tr h5", {
 .to(".page2 .overlay .third", {
 
 
-    color: '#fff',
+  color: ' #330152',
     scrollTrigger: {
       trigger: ".page2 .overlay .third",
       scroller: "#main",
@@ -1815,9 +1805,10 @@ trp.to(".tr h5", {
     }
   })
   .to(".page2 .overlay .yrs", {
-    // opacity: 1,
+   
+
     top: '22%',
-    color: '#fff',
+    color: ' #330152',
 
 
     // background: "transparent linear-gradient(197deg, #ECE7E100 0%, #82638F57 35%, #330152 100%) 0% 0% no-repeat padding-box",
@@ -1885,8 +1876,8 @@ trp.to(".tr h5", {
       trigger: ".page2 .overlay .third",
       scroller: "#main",
       scrub: true,
-      start: "50900% top",
-      end: "50900% -30%",
+      start: "51500% top",
+      end: "51500% -15%",
     },
   })
 
